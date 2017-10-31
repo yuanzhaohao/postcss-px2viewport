@@ -4,7 +4,7 @@
   "description": "A tool for PostCss",
   "main": "index.js",
   "scripts": {
-    "test": "node example/test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,14 +16,17 @@
     "css"
   ],
   "author": "yuanzhaohao",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yuanzhaohao/postcss-px2viewport/issues"
   },
   "homepage": "https://github.com/yuanzhaohao/postcss-px2viewport#readme",
-  "devDependencies": {
+  "dependencies": {
     "css": "^2.2.1",
     "object-assign": "^4.1.1",
     "postcss": "^6.0.13"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
   }
 }
