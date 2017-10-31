@@ -1,22 +1,25 @@
 .class {
-  border: 0.4vw solid black;
+  border: 1px solid black;
   margin-top: 0;
   border-bottom-width: 1px;
 }
 
 [data-dpr="1"] .class {
-  font-size: 1.8666667vw;
-  line-height: 2.6666667vw;
+  font-size: 7px;
+  line-height: 10px;
+  border-width: 0.5px;
 }
 
 [data-dpr="2"] .class {
-  font-size: 1.8666667vw;
-  line-height: 2.6666667vw;
+  font-size: 14px;
+  line-height: 20px;
+  border-width: 1px;
 }
 
 [data-dpr="3"] .class {
-  font-size: 1.8666667vw;
-  line-height: 2.6666667vw;
+  font-size: 21px;
+  line-height: 30px;
+  border-width: 1.5px;
 }
 
 .class2 {
@@ -25,18 +28,18 @@
 }
 
 [data-dpr="1"] .class2 {
-  font-size: 2.6666667vw;
-  line-height: 4vw;
+  font-size: 10px;
+  line-height: 15px;
 }
 
 [data-dpr="2"] .class2 {
-  font-size: 2.6666667vw;
-  line-height: 4vw;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 [data-dpr="3"] .class2 {
-  font-size: 2.6666667vw;
-  line-height: 4vw;
+  font-size: 30px;
+  line-height: 45px;
 }
 
 @media (min-width: 100vw) {

@@ -1,9 +1,10 @@
 .class {
-  border: 3px solid black;
+  border: 1px solid black;
   margin-top: 0px;/*px*/
   border-bottom-width: 1px;/*no*/
   font-size: 14px;/*px*/
   line-height: 20px;/*px*/
+  border-width: 1px;/*px*/
 }
 .class2 {
   border: 1px solid black;

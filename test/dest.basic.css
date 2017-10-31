@@ -11,18 +11,18 @@ body {
 }
 
 [data-dpr="1"] body {
-  height: 2.6666667vw;
-  padding: 0.8vw;
+  height: 10px;
+  padding: 3px;
 }
 
 [data-dpr="2"] body {
-  height: 2.6666667vw;
-  padding: 0.8vw;
+  height: 20px;
+  padding: 6px;
 }
 
 [data-dpr="3"] body {
-  height: 2.6666667vw;
-  padding: 0.8vw;
+  height: 30px;
+  padding: 9px;
 }
 
 .header,
@@ -35,17 +35,17 @@ body {
 
 [data-dpr="1"] .header,
 [data-dpr="1"] .footer span {
-  font-size: 3.7333333vw;
+  font-size: 14px;
 }
 
 [data-dpr="2"] .header,
 [data-dpr="2"] .footer span {
-  font-size: 3.7333333vw;
+  font-size: 28px;
 }
 
 [data-dpr="3"] .header,
 [data-dpr="3"] .footer span {
-  font-size: 3.7333333vw;
+  font-size: 42px;
 }
 
 .main {
@@ -108,18 +108,18 @@ body {
   }
 
   [data-dpr="1"] body {
-    height: 2.6666667vw;
-    padding: 0.8vw;
+    height: 10px;
+    padding: 3px;
   }
 
   [data-dpr="2"] body {
-    height: 2.6666667vw;
-    padding: 0.8vw;
+    height: 20px;
+    padding: 6px;
   }
 
   [data-dpr="3"] body {
-    height: 2.6666667vw;
-    padding: 0.8vw;
+    height: 30px;
+    padding: 9px;
   }
 
   .header,
@@ -132,17 +132,17 @@ body {
 
   [data-dpr="1"] .header,
   [data-dpr="1"] .footer span {
-    font-size: 3.7333333vw;
+    font-size: 14px;
   }
 
   [data-dpr="2"] .header,
   [data-dpr="2"] .footer span {
-    font-size: 3.7333333vw;
+    font-size: 28px;
   }
 
   [data-dpr="3"] .header,
   [data-dpr="3"] .footer span {
-    font-size: 3.7333333vw;
+    font-size: 42px;
   }
 
   .main {
@@ -162,15 +162,15 @@ body {
   }
 
   [data-dpr="1"] .footer {
-    height: 13.3333333vw;
+    height: 50px;
   }
 
   [data-dpr="2"] .footer {
-    height: 13.3333333vw;
+    height: 100px;
   }
 
   [data-dpr="3"] .footer {
-    height: 13.3333333vw;
+    height: 150px;
   }
 
 @-webkit-keyframes anim3 {
@@ -203,15 +203,15 @@ body {
 }
 
 [data-dpr="1"] .footer {
-  height: 13.3333333vw;
+  height: 50px;
 }
 
 [data-dpr="2"] .footer {
-  height: 13.3333333vw;
+  height: 100px;
 }
 
 [data-dpr="3"] .footer {
-  height: 13.3333333vw;
+  height: 150px;
 }
 
 /*
