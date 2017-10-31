@@ -2,6 +2,7 @@
   border: 1px solid black;
   margin-top: 0;
   border-bottom-width: 1px;
+  background-size: 4vw 1.3333333vw;
 }
 
 [data-dpr="1"] .class {
@@ -30,16 +31,19 @@
 [data-dpr="1"] .class2 {
   font-size: 10px;
   line-height: 15px;
+  background-size: 10px 5px;
 }
 
 [data-dpr="2"] .class2 {
   font-size: 20px;
   line-height: 30px;
+  background-size: 20px 10px;
 }
 
 [data-dpr="3"] .class2 {
   font-size: 30px;
   line-height: 45px;
+  background-size: 30px 15px;
 }
 
 @media (min-width: 100vw) {
