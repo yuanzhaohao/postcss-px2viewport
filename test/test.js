@@ -20,14 +20,26 @@ var opacity = function (css) {
 describe('postcss-px2viewport', function () {
   it('[default] should output right viewport file', function () {
     var srcPath = path.join(__dirname, 'source.css');
+    var destPath = path.join(__dirname, 'dest.basic.css');
     var srcText = fs.readFileSync(srcPath, {encoding: 'utf8'});
-    var outputText = postcss().use(px2viewport({viewportWidth: 750})).process(srcText).css;
-    var expectedText = fs.readFileSync(path.join(__dirname, 'dest.basic.css'), {encoding: 'utf8'});
-    assert.equal(outputText, expectedText);
+    var outputText = postcss()
+      .use(px2viewport({
+        viewportWidth: 750
+      }))
+      .process(srcText).css;
+
+    fs.writeFile(destPath, outputText, function (err) {
+      var expectedText = fs.readFileSync(destPath, {encoding: 'utf8'});
+      if (err) {
+        throw err;
+      }
+      assert.equal(outputText, expectedText);
+    });
   });
 
   it('should get along well with other plugins', function () {
     var srcPath = path.join(__dirname, 'source.css');
+    var destPath = path.join(__dirname, 'dest.multiple.css');
     var srcText = fs.readFileSync(srcPath, {encoding: 'utf8'});
     var outputText = postcss()
       .use(px2viewport({
@@ -35,7 +47,13 @@ describe('postcss-px2viewport', function () {
       }))
       .use(opacity)
       .process(srcText).css;
-    var expectedText = fs.readFileSync(path.join(__dirname, 'dest.multiple.css'), {encoding: 'utf8'});
-    assert.equal(outputText, expectedText);
+
+    fs.writeFile(destPath, outputText, function (err) {
+      var expectedText = fs.readFileSync(destPath, {encoding: 'utf8'});
+      if (err) {
+        throw err;
+      }
+      assert.equal(outputText, expectedText);
+    });
   });
 });

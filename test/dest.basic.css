@@ -1,0 +1,28 @@
+.class {
+  border: 0.4vw solid black;
+  border-bottom-width: 1px;
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 4vw;
+}
+
+.class2 {
+  border: 1px solid black;
+  margin-bottom: 1px;
+  font-size: 2.6666667vw;
+  line-height: 30px;
+}
+
+@media (min-width: 100vw) {
+  .class3 {
+    font-size: 2.1333333vw;
+    line-height: 2.9333333vw;
+  }
+}
+
+/*
+.class {
+    font-size: 16px;
+}
+*/
