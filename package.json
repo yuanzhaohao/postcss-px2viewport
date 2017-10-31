@@ -4,6 +4,7 @@
   "description": "A tool for PostCss",
   "main": "index.js",
   "scripts": {
+    "start": "node example/index",
     "test": "mocha"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/yuanzhaohao/postcss-px2viewport#readme",
   "dependencies": {
     "css": "^2.2.1",
+    "extend": "^3.0.1",
     "object-assign": "^4.1.1",
     "postcss": "^6.0.13"
   },
