@@ -1,0 +1,29 @@
+{
+  "name": "postcss-px2viewport",
+  "version": "0.0.1",
+  "description": "A tool for PostCss",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanzhaohao/postcss-px2viewport.git"
+  },
+  "keywords": [
+    "postcss",
+    "viewpost",
+    "css"
+  ],
+  "author": "yuanzhaohao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuanzhaohao/postcss-px2viewport/issues"
+  },
+  "homepage": "https://github.com/yuanzhaohao/postcss-px2viewport#readme",
+  "devDependencies": {
+    "css": "^2.2.1",
+    "object-assign": "^4.1.1",
+    "postcss": "^6.0.13"
+  }
+}
