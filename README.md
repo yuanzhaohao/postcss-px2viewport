@@ -9,7 +9,7 @@
 
 ### how to use
 #### webpack
-please run `npm install postcss-loader`, and add the code
+please run `npm install postcss-loader --save-dev`, and add the code
 
 ```javascript
 var px2viewport = require('postcss-px2viewport');
