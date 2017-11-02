@@ -1,7 +1,10 @@
 ## postcss-px2viewport
 > A tool for postcss.
+
 > 默认使用`vw`作为布局单位，对于不支持`vw`单位的，则使用`rem`进行布局
+
 > 对于标记了`/*px*/`的，则转换为`[data-dpr="1"]`、`[data-dpr="2"]`、`[data-dpr="3"]`三种不同的字体
+
 > 对于标记了`/*no*/`的，则不做处理，依然使用px进行布局
 
 ### how to use
