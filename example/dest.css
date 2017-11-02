@@ -74,22 +74,22 @@
   border: 1px solid black;
 }
 
-[data-dpr="1"] .class3,[data-dpr="1"] .class4 {
+[data-dpr="1"] .class3, [data-dpr="1"] .class4 {
   height: 50px;
   font-size: 12px;
 }
 
-[data-dpr="2"] .class3,[data-dpr="2"] .class4 {
+[data-dpr="2"] .class3, [data-dpr="2"] .class4 {
   height: 100px;
   font-size: 24px;
 }
 
-[data-dpr="3"] .class3,[data-dpr="3"] .class4 {
+[data-dpr="3"] .class3, [data-dpr="3"] .class4 {
   height: 150px;
   font-size: 36px;
 }
 
-[data-rem="true"] .class3,[data-rem="true"] .class4 {
+[data-rem="true"] .class3, [data-rem="true"] .class4 {
   margin: 0px 0.2666667rem;
   width: 10rem;
 }
