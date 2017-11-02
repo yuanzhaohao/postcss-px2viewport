@@ -1,5 +1,5 @@
 ## postcss-px2viewport
-> A tool for postcss.
+> 一个postcss插件，结合viewport.js使用
 
 > 默认使用`vw`作为布局单位，对于不支持`vw`单位的，则使用`rem`进行布局
 
