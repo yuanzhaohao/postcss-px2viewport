@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/yuanzhaohao/postcss-px2viewport#readme",
   "dependencies": {
-    "css": "^2.2.1",
     "object-assign": "^4.1.1",
     "postcss": "^6.0.13"
   },
