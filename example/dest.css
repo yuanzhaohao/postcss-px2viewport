@@ -15,8 +15,6 @@ html * {
 html, body {
   font-family: sans-serif;
 }
-
-/* 内外边距通常让各个浏览器样式的表现位置不同 */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   margin: 0;
   padding: 0;
@@ -25,25 +23,17 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 input, select, textarea {
   font-size: 100%;
 }
-
-/* 去掉各 Table  cell 的边距并让其边重合 */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/* 去除默认边框 */
 fieldset, img {
   border: 0;
 }
-
-/* 去掉 firefox 下此元素的边框 */
 abbr, acronym {
   border: 0;
   font-variant: normal;
 }
-
-/* 一致的 del 样式 */
 del {
   text-decoration: line-through;
 }
@@ -52,18 +42,12 @@ address, caption, cite, code, dfn, em, th, var {
   font-style: normal;
   font-weight: 500;
 }
-
-/* 去掉列表前的标识, li 会继承 */
 ol, ul {
   list-style: none;
 }
-
-/* 对齐是排版最重要的因素, 别让什么都居中 */
 caption, th {
   text-align: left;
 }
-
-/* 来自 yahoo, 让标题都自定义, 适应多个系统应用 */
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: 500;
@@ -72,8 +56,6 @@ h1, h2, h3, h4, h5, h6 {
 q:before, q:after {
   content: '';
 }
-
-/* 统一上标和下标 */
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -88,15 +70,9 @@ sup {
 sub {
   bottom: -0.25em;
 }
-
-/* 正常链接 未访问 */
-
-/* 鼠标悬停 */
 a:hover {
   text-decoration: underline;
 }
-
-/* 默认不显示下划线，保持页面简洁 */
 ins, a {
   text-decoration: none;
 }
@@ -110,16 +86,55 @@ body {
   margin-top: 0;
   border-bottom-width: 1px;
   background-size: 4vw 1.3333333vw;
+}[data-dpr="1"] .class {
+  font-size: 7px;
+  line-height: 10px
+}[data-dpr="2"] .class {
+  font-size: 14px;
+  line-height: 20px
+}[data-dpr="3"] .class {
+  border: 1.5px solid black;
+  font-size: 21px;
+  line-height: 30px;
+  border-width: 1.5px
+}[data-rem="true"] .class {
+  background-size: 0.4rem 0.1333333rem
 }
 .class2 {
   border: 1px solid black;
   margin-bottom: 1px;
+}[data-dpr="1"] .class2 {
+  font-size: 10px;
+  line-height: 15px;
+  background-size: 10px 5px
+}[data-dpr="2"] .class2 {
+  font-size: 20px;
+  line-height: 30px;
+  background-size: 20px 10px
+}[data-dpr="3"] .class2 {
+  font-size: 30px;
+  line-height: 45px;
+  background-size: 30px 15px
+}[data-rem="true"] .class2 {
+  border: 1px solid black
 }
 
 .class3,
 .class4 {
   margin: 0px 2.6666667vw;
   width: 100vw;
+}[data-dpr="1"] .class3, [data-dpr="1"] .class4 {
+  height: 50px;
+  font-size: 12px
+}[data-dpr="2"] .class3, [data-dpr="2"] .class4 {
+  height: 100px;
+  font-size: 24px
+}[data-dpr="3"] .class3, [data-dpr="3"] .class4 {
+  height: 150px;
+  font-size: 36px
+}[data-rem="true"] .class3, [data-rem="true"] .class4 {
+  margin: 0px 0.2666667rem;
+  width: 10rem
 }
 
 @media (min-width: 100vw) {
@@ -127,77 +142,4 @@ body {
     font-size: 16px;
     line-height: 22px;
   }
-}
-
-/*
-.class {
-    font-size: 16px;
-}
-*/
-
-[data-dpr="1"] .class {
-  border: 1px solid black;
-  font-size: 7px;
-  line-height: 10px;
-  border-width: 1px;
-}
-
-[data-dpr="2"] .class {
-  border: 1px solid black;
-  font-size: 14px;
-  line-height: 20px;
-  border-width: 1px;
-}
-
-[data-dpr="3"] .class {
-  border: 1.5px solid black;
-  font-size: 21px;
-  line-height: 30px;
-  border-width: 1.5px;
-}
-
-[data-rem="true"] .class {
-  background-size: 0.4rem 0.1333333rem;
-}
-
-[data-dpr="1"] .class2 {
-  font-size: 10px;
-  line-height: 15px;
-  background-size: 10px 5px;
-}
-
-[data-dpr="2"] .class2 {
-  font-size: 20px;
-  line-height: 30px;
-  background-size: 20px 10px;
-}
-
-[data-dpr="3"] .class2 {
-  font-size: 30px;
-  line-height: 45px;
-  background-size: 30px 15px;
-}
-
-[data-rem="true"] .class2 {
-  border: 1px solid black;
-}
-
-[data-dpr="1"] .class3, [data-dpr="1"] .class4 {
-  height: 50px;
-  font-size: 12px;
-}
-
-[data-dpr="2"] .class3, [data-dpr="2"] .class4 {
-  height: 100px;
-  font-size: 24px;
-}
-
-[data-dpr="3"] .class3, [data-dpr="3"] .class4 {
-  height: 150px;
-  font-size: 36px;
-}
-
-[data-rem="true"] .class3, [data-rem="true"] .class4 {
-  margin: 0px 0.2666667rem;
-  width: 10rem;
 }
