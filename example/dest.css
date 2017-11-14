@@ -90,8 +90,6 @@ sub {
 }
 
 /* 正常链接 未访问 */
-a:link {
-}
 
 /* 鼠标悬停 */
 a:hover {
@@ -107,7 +105,6 @@ body {
   width: 100%;
   overflow: hidden;
 }
-
 
 .class {
   margin-top: 0;

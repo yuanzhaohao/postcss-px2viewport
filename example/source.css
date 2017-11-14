@@ -108,6 +108,9 @@ body {
   overflow: hidden;
 }
 
+.empty {
+  
+}
 
 .class {
   border: 1px solid black;/*px*/
