@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 html {
   color: #000;
   background: #fff;
@@ -140,321 +138,69 @@ body {
 }
 */
 
-[data-dpr="1"] html{
-}
-
-[data-dpr="2"] html{
-}
-
-[data-dpr="3"] html{
-}
-
-[data-rem="true"] html{
-}
-
-[data-dpr="1"] html *{
-}
-
-[data-dpr="2"] html *{
-}
-
-[data-dpr="3"] html *{
-}
-
-[data-rem="true"] html *{
-}
-
-[data-dpr="1"] html, [data-dpr="1"] body{
-}
-
-[data-dpr="2"] html, [data-dpr="2"] body{
-}
-
-[data-dpr="3"] html, [data-dpr="3"] body{
-}
-
-[data-rem="true"] html, [data-rem="true"] body{
-}
-
-[data-dpr="1"] body, [data-dpr="1"] div, [data-dpr="1"] dl, [data-dpr="1"] dt, [data-dpr="1"] dd, [data-dpr="1"] ul, [data-dpr="1"] ol, [data-dpr="1"] li, [data-dpr="1"] h1, [data-dpr="1"] h2, [data-dpr="1"] h3, [data-dpr="1"] h4, [data-dpr="1"] h5, [data-dpr="1"] h6, [data-dpr="1"] pre, [data-dpr="1"] code, [data-dpr="1"] form, [data-dpr="1"] fieldset, [data-dpr="1"] legend, [data-dpr="1"] input, [data-dpr="1"] textarea, [data-dpr="1"] p, [data-dpr="1"] blockquote, [data-dpr="1"] th, [data-dpr="1"] td, [data-dpr="1"] hr, [data-dpr="1"] button, [data-dpr="1"] article, [data-dpr="1"] aside, [data-dpr="1"] details, [data-dpr="1"] figcaption, [data-dpr="1"] figure, [data-dpr="1"] footer, [data-dpr="1"] header, [data-dpr="1"] hgroup, [data-dpr="1"] menu, [data-dpr="1"] nav, [data-dpr="1"] section{
-}
-
-[data-dpr="2"] body, [data-dpr="2"] div, [data-dpr="2"] dl, [data-dpr="2"] dt, [data-dpr="2"] dd, [data-dpr="2"] ul, [data-dpr="2"] ol, [data-dpr="2"] li, [data-dpr="2"] h1, [data-dpr="2"] h2, [data-dpr="2"] h3, [data-dpr="2"] h4, [data-dpr="2"] h5, [data-dpr="2"] h6, [data-dpr="2"] pre, [data-dpr="2"] code, [data-dpr="2"] form, [data-dpr="2"] fieldset, [data-dpr="2"] legend, [data-dpr="2"] input, [data-dpr="2"] textarea, [data-dpr="2"] p, [data-dpr="2"] blockquote, [data-dpr="2"] th, [data-dpr="2"] td, [data-dpr="2"] hr, [data-dpr="2"] button, [data-dpr="2"] article, [data-dpr="2"] aside, [data-dpr="2"] details, [data-dpr="2"] figcaption, [data-dpr="2"] figure, [data-dpr="2"] footer, [data-dpr="2"] header, [data-dpr="2"] hgroup, [data-dpr="2"] menu, [data-dpr="2"] nav, [data-dpr="2"] section{
-}
-
-[data-dpr="3"] body, [data-dpr="3"] div, [data-dpr="3"] dl, [data-dpr="3"] dt, [data-dpr="3"] dd, [data-dpr="3"] ul, [data-dpr="3"] ol, [data-dpr="3"] li, [data-dpr="3"] h1, [data-dpr="3"] h2, [data-dpr="3"] h3, [data-dpr="3"] h4, [data-dpr="3"] h5, [data-dpr="3"] h6, [data-dpr="3"] pre, [data-dpr="3"] code, [data-dpr="3"] form, [data-dpr="3"] fieldset, [data-dpr="3"] legend, [data-dpr="3"] input, [data-dpr="3"] textarea, [data-dpr="3"] p, [data-dpr="3"] blockquote, [data-dpr="3"] th, [data-dpr="3"] td, [data-dpr="3"] hr, [data-dpr="3"] button, [data-dpr="3"] article, [data-dpr="3"] aside, [data-dpr="3"] details, [data-dpr="3"] figcaption, [data-dpr="3"] figure, [data-dpr="3"] footer, [data-dpr="3"] header, [data-dpr="3"] hgroup, [data-dpr="3"] menu, [data-dpr="3"] nav, [data-dpr="3"] section{
-}
-
-[data-rem="true"] body, [data-rem="true"] div, [data-rem="true"] dl, [data-rem="true"] dt, [data-rem="true"] dd, [data-rem="true"] ul, [data-rem="true"] ol, [data-rem="true"] li, [data-rem="true"] h1, [data-rem="true"] h2, [data-rem="true"] h3, [data-rem="true"] h4, [data-rem="true"] h5, [data-rem="true"] h6, [data-rem="true"] pre, [data-rem="true"] code, [data-rem="true"] form, [data-rem="true"] fieldset, [data-rem="true"] legend, [data-rem="true"] input, [data-rem="true"] textarea, [data-rem="true"] p, [data-rem="true"] blockquote, [data-rem="true"] th, [data-rem="true"] td, [data-rem="true"] hr, [data-rem="true"] button, [data-rem="true"] article, [data-rem="true"] aside, [data-rem="true"] details, [data-rem="true"] figcaption, [data-rem="true"] figure, [data-rem="true"] footer, [data-rem="true"] header, [data-rem="true"] hgroup, [data-rem="true"] menu, [data-rem="true"] nav, [data-rem="true"] section{
-}
-
-[data-dpr="1"] input, [data-dpr="1"] select, [data-dpr="1"] textarea{
-}
-
-[data-dpr="2"] input, [data-dpr="2"] select, [data-dpr="2"] textarea{
-}
-
-[data-dpr="3"] input, [data-dpr="3"] select, [data-dpr="3"] textarea{
-}
-
-[data-rem="true"] input, [data-rem="true"] select, [data-rem="true"] textarea{
-}
-
-[data-dpr="1"] table{
-}
-
-[data-dpr="2"] table{
-}
-
-[data-dpr="3"] table{
-}
-
-[data-rem="true"] table{
-}
-
-[data-dpr="1"] fieldset, [data-dpr="1"] img{
-}
-
-[data-dpr="2"] fieldset, [data-dpr="2"] img{
-}
-
-[data-dpr="3"] fieldset, [data-dpr="3"] img{
-}
-
-[data-rem="true"] fieldset, [data-rem="true"] img{
-}
-
-[data-dpr="1"] abbr, [data-dpr="1"] acronym{
-}
-
-[data-dpr="2"] abbr, [data-dpr="2"] acronym{
-}
-
-[data-dpr="3"] abbr, [data-dpr="3"] acronym{
-}
-
-[data-rem="true"] abbr, [data-rem="true"] acronym{
-}
-
-[data-dpr="1"] del{
-}
-
-[data-dpr="2"] del{
-}
-
-[data-dpr="3"] del{
-}
-
-[data-rem="true"] del{
-}
-
-[data-dpr="1"] address, [data-dpr="1"] caption, [data-dpr="1"] cite, [data-dpr="1"] code, [data-dpr="1"] dfn, [data-dpr="1"] em, [data-dpr="1"] th, [data-dpr="1"] var{
-}
-
-[data-dpr="2"] address, [data-dpr="2"] caption, [data-dpr="2"] cite, [data-dpr="2"] code, [data-dpr="2"] dfn, [data-dpr="2"] em, [data-dpr="2"] th, [data-dpr="2"] var{
-}
-
-[data-dpr="3"] address, [data-dpr="3"] caption, [data-dpr="3"] cite, [data-dpr="3"] code, [data-dpr="3"] dfn, [data-dpr="3"] em, [data-dpr="3"] th, [data-dpr="3"] var{
-}
-
-[data-rem="true"] address, [data-rem="true"] caption, [data-rem="true"] cite, [data-rem="true"] code, [data-rem="true"] dfn, [data-rem="true"] em, [data-rem="true"] th, [data-rem="true"] var{
-}
-
-[data-dpr="1"] ol, [data-dpr="1"] ul{
-}
-
-[data-dpr="2"] ol, [data-dpr="2"] ul{
-}
-
-[data-dpr="3"] ol, [data-dpr="3"] ul{
-}
-
-[data-rem="true"] ol, [data-rem="true"] ul{
-}
-
-[data-dpr="1"] caption, [data-dpr="1"] th{
-}
-
-[data-dpr="2"] caption, [data-dpr="2"] th{
-}
-
-[data-dpr="3"] caption, [data-dpr="3"] th{
-}
-
-[data-rem="true"] caption, [data-rem="true"] th{
-}
-
-[data-dpr="1"] h1, [data-dpr="1"] h2, [data-dpr="1"] h3, [data-dpr="1"] h4, [data-dpr="1"] h5, [data-dpr="1"] h6{
-}
-
-[data-dpr="2"] h1, [data-dpr="2"] h2, [data-dpr="2"] h3, [data-dpr="2"] h4, [data-dpr="2"] h5, [data-dpr="2"] h6{
-}
-
-[data-dpr="3"] h1, [data-dpr="3"] h2, [data-dpr="3"] h3, [data-dpr="3"] h4, [data-dpr="3"] h5, [data-dpr="3"] h6{
-}
-
-[data-rem="true"] h1, [data-rem="true"] h2, [data-rem="true"] h3, [data-rem="true"] h4, [data-rem="true"] h5, [data-rem="true"] h6{
-}
-
-[data-dpr="1"] q:before, [data-dpr="1"] q:after{
-}
-
-[data-dpr="2"] q:before, [data-dpr="2"] q:after{
-}
-
-[data-dpr="3"] q:before, [data-dpr="3"] q:after{
-}
-
-[data-rem="true"] q:before, [data-rem="true"] q:after{
-}
-
-[data-dpr="1"] sub, [data-dpr="1"] sup{
-}
-
-[data-dpr="2"] sub, [data-dpr="2"] sup{
-}
-
-[data-dpr="3"] sub, [data-dpr="3"] sup{
-}
-
-[data-rem="true"] sub, [data-rem="true"] sup{
-}
-
-[data-dpr="1"] sup{
-}
-
-[data-dpr="2"] sup{
-}
-
-[data-dpr="3"] sup{
-}
-
-[data-rem="true"] sup{
-}
-
-[data-dpr="1"] sub{
-}
-
-[data-dpr="2"] sub{
-}
-
-[data-dpr="3"] sub{
-}
-
-[data-rem="true"] sub{
-}
-
-[data-dpr="1"] a:link{
-}
-
-[data-dpr="2"] a:link{
-}
-
-[data-dpr="3"] a:link{
-}
-
-[data-rem="true"] a:link{
-}
-
-[data-dpr="1"] a:hover{
-}
-
-[data-dpr="2"] a:hover{
-}
-
-[data-dpr="3"] a:hover{
-}
-
-[data-rem="true"] a:hover{
-}
-
-[data-dpr="1"] ins, [data-dpr="1"] a{
-}
-
-[data-dpr="2"] ins, [data-dpr="2"] a{
-}
-
-[data-dpr="3"] ins, [data-dpr="3"] a{
-}
-
-[data-rem="true"] ins, [data-rem="true"] a{
-}
-
-[data-dpr="1"] body{
-}
-
-[data-dpr="2"] body{
-}
-
-[data-dpr="3"] body{
-}
-
-[data-rem="true"] body{
-}
-
-[data-dpr="1"] .class{
+[data-dpr="1"] .class {
   border: 1px solid black;
   font-size: 7px;
   line-height: 10px;
   border-width: 1px;
 }
 
-[data-dpr="2"] .class{
+[data-dpr="2"] .class {
   border: 1px solid black;
   font-size: 14px;
   line-height: 20px;
   border-width: 1px;
 }
 
-[data-dpr="3"] .class{
+[data-dpr="3"] .class {
   border: 1.5px solid black;
   font-size: 21px;
   line-height: 30px;
   border-width: 1.5px;
 }
 
-[data-rem="true"] .class{
+[data-rem="true"] .class {
   background-size: 0.4rem 0.1333333rem;
 }
 
-[data-dpr="1"] .class2{
+[data-dpr="1"] .class2 {
   font-size: 10px;
   line-height: 15px;
   background-size: 10px 5px;
 }
 
-[data-dpr="2"] .class2{
+[data-dpr="2"] .class2 {
   font-size: 20px;
   line-height: 30px;
   background-size: 20px 10px;
 }
 
-[data-dpr="3"] .class2{
+[data-dpr="3"] .class2 {
   font-size: 30px;
   line-height: 45px;
   background-size: 30px 15px;
 }
 
-[data-rem="true"] .class2{
+[data-rem="true"] .class2 {
   border: 1px solid black;
 }
 
-[data-dpr="1"] .class3, [data-dpr="1"] .class4{
+[data-dpr="1"] .class3, [data-dpr="1"] .class4 {
   height: 50px;
   font-size: 12px;
 }
 
-[data-dpr="2"] .class3, [data-dpr="2"] .class4{
+[data-dpr="2"] .class3, [data-dpr="2"] .class4 {
   height: 100px;
   font-size: 24px;
 }
 
-[data-dpr="3"] .class3, [data-dpr="3"] .class4{
+[data-dpr="3"] .class3, [data-dpr="3"] .class4 {
   height: 150px;
   font-size: 36px;
 }
 
-[data-rem="true"] .class3, [data-rem="true"] .class4{
+[data-rem="true"] .class3, [data-rem="true"] .class4 {
   margin: 0px 0.2666667rem;
   width: 10rem;
 }
