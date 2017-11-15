@@ -1,6 +1,6 @@
 {
   "name": "postcss-px2viewport",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A tool for PostCss",
   "main": "index.js",
   "scripts": {
