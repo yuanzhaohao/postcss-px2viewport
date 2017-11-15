@@ -81,10 +81,28 @@ body {
 
 @media (min-width: 100vw) {
   .class3 {
-    font-size: 16px;
-    line-height: 22px;
+    line-height: 2.9333333vw;
     animation: anim3 linear infinite;
-  }
+  }[data-dpr="1"] .class3 {
+    font-size: 8px
+}[data-dpr="2"] .class3 {
+    font-size: 16px
+}[data-dpr="3"] .class3 {
+    font-size: 24px
+}
+
+  .class4 {
+    width: 80vw;
+    border: 1px solid #ccc;
+  }[data-dpr="1"] .class4 {
+    font-size: 16px
+}[data-dpr="2"] .class4 {
+    font-size: 32px
+}[data-dpr="3"] .class4 {
+    font-size: 48px
+}[data-rem="true"] .class4 {
+    width: 8rem
+}
 
   @-webkit-keyframes anim3 {
     0%, 100% {
