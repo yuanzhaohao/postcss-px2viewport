@@ -7,7 +7,10 @@ var px2viewport = require('..');
 var srcPath = path.join(__dirname, 'source.css');
 var destPath = path.join(__dirname, 'dest.css');
 var srcText = fs.readFileSync(srcPath, 'utf8');
-var outputText = postcss(px2viewport({ viewportWidth: 750 })).process(srcText).css;
+var outputText = postcss(px2viewport({
+  viewportWidth: 375,
+  baseDpr: 1
+})).process(srcText).css;
 
 fs.writeFile(destPath, outputText, function (err) {
   if (err) {
