@@ -8,8 +8,8 @@ var srcPath = path.join(__dirname, 'source.css');
 var destPath = path.join(__dirname, 'dest.css');
 var srcText = fs.readFileSync(srcPath, 'utf8');
 var outputText = postcss(px2viewport({
-  viewportWidth: 375,
-  baseDpr: 1,
+  viewportWidth: 750,
+  baseDpr: 2,
   isDeleteRem: true,
   isDeleteDpr: true,
 })).process(srcText).css;

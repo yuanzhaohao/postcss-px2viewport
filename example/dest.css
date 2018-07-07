@@ -21,82 +21,45 @@ body {
 }
 
 .class {
+  border: 1px solid black;
   margin-top: 0;
   border-bottom-width: 1px;
-  background-size: 8vw 2.6666667vw;
+  font-size: 7px;
+  line-height: 10px;
+  border-width: 1px;
+  background-size: 4vw 1.3333333vw;
   animation: anim1 linear infinite;
-}[data-dpr="1"] .class {
-  border: 1px solid black;
-  font-size: 14px;
-  line-height: 20px;
-  border-width: 1px
-}[data-dpr="2"] .class {
-  border: 2px solid black;
-  font-size: 28px;
-  line-height: 40px;
-  border-width: 2px
-}[data-dpr="3"] .class {
-  border: 3px solid black;
-  font-size: 42px;
-  line-height: 60px;
-  border-width: 3px
 }
 .class2 {
   border: 1px solid black;
-  width: 200vw;
+  width: 100vw;
   margin-bottom: 1px;
+  font-size: 10px;
+  line-height: 15px;
+  background-size: 10px 5px;
   animation: anim12linear infinite;
-}[data-dpr="1"] .class2 {
-  font-size: 20px;
-  line-height: 30px;
-  background-size: 20px 10px
-}[data-dpr="2"] .class2 {
-  font-size: 40px;
-  line-height: 60px;
-  background-size: 40px 20px
-}[data-dpr="3"] .class2 {
-  font-size: 60px;
-  line-height: 90px;
-  background-size: 60px 30px
 }
 
 .class3,
 .class4 {
-  margin: 0px 5.3333333vw;
-  width: 200vw;
-}[data-dpr="1"] .class3, [data-dpr="1"] .class4 {
-  height: 100px;
-  font-size: 24px
-}[data-dpr="2"] .class3, [data-dpr="2"] .class4 {
-  height: 200px;
-  font-size: 48px
-}[data-dpr="3"] .class3, [data-dpr="3"] .class4 {
-  height: 300px;
-  font-size: 72px
+  margin: 0px 2.6666667vw;
+  width: 100vw;
+  height: 50px;
+  font-size: 12px;
 }
 
-@media (min-width: 200vw) {
+@media (min-width: 100vw) {
   .class3 {
-    line-height: 5.8666667vw;
+    font-size: 8px;
+    line-height: 2.9333333vw;
     animation: anim3 linear infinite;
-  }[data-dpr="1"] .class3 {
-    font-size: 16px
-}[data-dpr="2"] .class3 {
-    font-size: 32px
-}[data-dpr="3"] .class3 {
-    font-size: 48px
-}
+  }
 
   .class4 {
-    width: 160vw;
+    width: 80vw;
+    font-size: 16px;
     border: 1px solid #ccc;
-  }[data-dpr="1"] .class4 {
-    font-size: 32px
-}[data-dpr="2"] .class4 {
-    font-size: 64px
-}[data-dpr="3"] .class4 {
-    font-size: 96px
-}
+  }
 
   @-webkit-keyframes anim3 {
     0%, 100% {
