@@ -109,6 +109,51 @@ module.exports = {
   width: 10rem;
 }
 ```
+### Forbidden Rem or DPR
+```javascript
+require('postcss-px2viewport')({
+  viewportWidth: 750,
+  baseDpr: 2,
+  isDeleteRem: true,
+  isDeleteDpr: true,
+})
+```
+##### input
+```
+.item {
+  float: left;
+  width: 210px;
+  height: 440px;
+  margin-left: 30px;
+}
+.item-title {
+  height: 48px;
+  margin-top: 10px;
+  line-height: 48px;
+  font-size: 28px;/*px*/
+  text-align: center;
+  color: #494949;
+}
+```
+
+##### output
+```
+.item {
+  float: left;
+  width: 28vw;
+  height: 58.6666667vw;
+  margin-left: 4vw;
+}
+.item-title {
+  height: 6.4vw;
+  margin-top: 1.3333333vw;
+  line-height: 6.4vw;
+  font-size: 14px;
+  text-align: center;
+  color: #494949;
+}
+```
+
 
 ### license
 MIT

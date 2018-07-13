@@ -3,10 +3,6 @@
   width: 28vw;
   height: 58.6666667vw;
   margin-left: 4vw;
-}[data-rem="true"] .item {
-  width: 2.8rem;
-  height: 5.8666667rem;
-  margin-left: 0.4rem
 }
 .item-title {
   height: 6.4vw;
@@ -15,8 +11,4 @@
   font-size: 14px;
   text-align: center;
   color: #494949;
-}[data-rem="true"] .item-title {
-  height: 0.64rem;
-  margin-top: 0.1333333rem;
-  line-height: 0.64rem
 }
