@@ -1,99 +1,32 @@
-html {
-  color: #000;
-  background: #fff;
-  overflow-y: scroll;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+.item {
+  float: left;
+  width: 28vw;
+  height: 58.6666667vw;
+  margin-left: 4vw;
+}[data-rem="true"] .item {
+  width: 2.8rem;
+  height: 5.8666667rem
 }
-html * {
-  outline:none;
-  -webkit-text-size-adjust: none;
-  -webkit-tap-highlight-color:rgba(0,0,0,0);
+.item-img {
+  width: 28vw;
+  height: 40vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}[data-rem="true"] .item-img {
+  width: 2.8rem;
+  height: 4rem
 }
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  width: 100%;
-  overflow: hidden;
-}
-
-.class {
-  border: 1px solid black;
-  margin-top: 0;
-  border-bottom-width: 1px;
-  font-size: 7px;
-  line-height: 10px;
-  border-width: 1px;
-  background-size: 4vw 1.3333333vw;
-  animation: anim1 linear infinite;
-}
-.class2 {
-  border: 1px solid black;
-  width: 100vw;
-  margin-bottom: 1px;
-  font-size: 10px;
-  line-height: 15px;
-  background-size: 10px 5px;
-  animation: anim12linear infinite;
-}
-
-.class3,
-.class4 {
-  margin: 0px 2.6666667vw;
-  width: 100vw;
-  height: 50px;
-  font-size: 12px;
-}
-
-@media (min-width: 100vw) {
-  .class3 {
-    font-size: 8px;
-    line-height: 2.9333333vw;
-    animation: anim3 linear infinite;
-  }
-
-  .class4 {
-    width: 80vw;
-    font-size: 16px;
-    border: 1px solid #ccc;
-  }
-
-  @-webkit-keyframes anim3 {
-    0%, 100% {
-      -webkit-transform: none;
-    }
-    20%, 60% {
-      -webkit-transform: rotate(-45deg);
-    }
-    40%, 80% {
-      -webkit-transform: rotate(45deg);
-    }
-  }
-}
-
-@-webkit-keyframes anim1 {
-  0%, 100% {
-    -webkit-transform: none;
-  }
-  20%, 60% {
-    -webkit-transform: rotate(-45deg);
-  }
-  40%, 80% {
-    -webkit-transform: rotate(45deg);
-  }
-}
-@keyframes anim2 {
-  0% {
-    height: 75px; /*px*/
-    width: 75px;
-    border: 1px solid #ddd; /*no*/
-  }
-  100% {
-    height: 150px;
-    width: 150px;
-    border: 2px solid #ddd; /*no*/
-  }
+.item-title {
+  height: 6.4vw;
+  margin-top: 1.3333333vw;
+  line-height: 6.4vw;
+  text-align: center;
+  color: #494949;
+}[data-dpr="1"] .item-title {
+  font-size: 14px
+}[data-dpr="2"] .item-title {
+  font-size: 28px
+}[data-dpr="3"] .item-title {
+  font-size: 42px
 }

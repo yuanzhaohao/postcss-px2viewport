@@ -1,0 +1,14 @@
+.item {
+  float: left;
+  width: 210px;
+  height: 440px;
+  margin-left: 30px;
+}
+.item-title {
+  height: 48px;
+  margin-top: 10px;
+  line-height: 48px;
+  font-size: 28px;/*px*/
+  text-align: center;
+  color: #494949;
+}
